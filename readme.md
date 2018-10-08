@@ -1,4 +1,9 @@
 # 面向对象继承
+* 仅适用于es5。
+* 坑点：es6中使用class定义的构造函数，无法使用这个方法进行集成，会报错。
+* es6中，使用class定义的构造函数。
+    - 无法Suepr()直接调用。所以：
+    - 也无法使用call和apply。
 ```
 const constructorInherit = require('zhf.constructor-inherit');
 
